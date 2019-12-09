@@ -1,8 +1,7 @@
 import React from 'react';
 import { Image } from "@components";
 
-const Contact = () => {
-    return (
+const Contact = () => (
         <div className="contact-grid">
             <div className="contact--image">
                 <Image filename="/content/assets/contact-image.jpg"/>
@@ -25,6 +24,5 @@ const Contact = () => {
             </div>
         </div>
     )
-}
 
 export default Contact

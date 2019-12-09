@@ -2,8 +2,7 @@ import React from "react"
 import { Header } from "@components"
 import "../style/main.css"
 
-const Layout = ({ children }) => {
-  return (
+const Layout = ({ children }) => (
     <div className="wrapper">
       <Header />
       <main>{children}</main>
@@ -15,6 +14,5 @@ const Layout = ({ children }) => {
       </footer>
     </div>
   )
-}
 
 export default Layout

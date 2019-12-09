@@ -2,8 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Image } from "@components"
 
-const Navigation = () => {
-  return (
+const Navigation = () => (
     <div className="container">
       <nav className="nav">
         <div className="nav--logo">
@@ -36,6 +35,5 @@ const Navigation = () => {
       </nav>
     </div>
   )
-}
 
 export default Navigation
