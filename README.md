@@ -2,7 +2,7 @@
 
 Minimal portfolio website for talented graphic designer Janu.
 
-## Build with
+## Built with
 
 * Gatsbyjs
 * Netlify CMS
